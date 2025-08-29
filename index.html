@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER / NAV ===== -->
+<header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="overlay">
+  <img src="Images/images/kirthi.img.png" alt="Profile Photo" class="profile-photo">
+  <h1 class="fade-in"><span class ="keerthi-name">Hi, I'm Keerthi</span></h1>
+  <p class="fade-in delay-1"> Data Enthusiast | Aspiring Analyst</p>
+  <div class="scroll-down"></div>
+</section>
+
+<!-- ===== ABOUT & SKILLS ===== -->
+<section id="about">
+  <div class="about-container">
+    <h2 class="sub-title">ABOUT ME</h2>
+    <p class="about-text">
+      I am a B.Tech graduate aspiring to start my career as a Data Analyst. Skilled in SQL, Python, Excel, and Power BI, I take interest in working with real-world datasets to find patterns, build clear visualizations, and present actionable insights. Currently focused on sharpening my analytical and problem-solving abilities through continuous learning and practical projects, I aim to bring both technical skills and curiosity to a data-driven team.
+    </p>
+    
+    <!-- Skills Horizontal List -->
+    <div class="skills-list">
+      <div class="skill">Excel</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Python for Data Analysis</div>
+      <div class="skill">Power BI</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== PROJECTS ===== -->
+<section id="portfolio">
+  <h2 class="sub-title">MY PROJECTS</h2>
+  <div class="worklist">
+    <div class="work">
+      <img src="Images/images/data2.avif" alt="Project 1">
+      <div class="layer">
+        <h3>Student Performance & Attendance Analysis</h3>
+        <a href="project1.html" target="_blank">View Details</a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="Images/images/data3.jpg" alt="Project 2">
+      <div class="layer">
+        <h3>Movie Ratings and Audience Insights</h3>
+        <a href="project2.html" target="_blank">View Details</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact">
+  <h2 class="sub-title">CONTACT ME</h2>
+  <p class="contact-info">Have an idea, feedback, or an opportunity to share? I’d love to hear from you — feel free to reach out!</p>
+
+  <div class="contact-container">
+    <form action="https://formspree.io/f/myzpoall" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
